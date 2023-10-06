@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D05A418C2ACF2A9F00F4AEB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05A418B2ACF2A9F00F4AEB8 /* AppDelegate.swift */; };
+		D05A418E2ACF2A9F00F4AEB8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05A418D2ACF2A9F00F4AEB8 /* SceneDelegate.swift */; };
+		D05A41902ACF2A9F00F4AEB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05A418F2ACF2A9F00F4AEB8 /* ViewController.swift */; };
+		D05A41932ACF2A9F00F4AEB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D05A41912ACF2A9F00F4AEB8 /* Main.storyboard */; };
+		D05A41952ACF2AA100F4AEB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D05A41942ACF2AA100F4AEB8 /* Assets.xcassets */; };
+		D05A41982ACF2AA100F4AEB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D05A41962ACF2AA100F4AEB8 /* LaunchScreen.storyboard */; };
+		D05A41A32ACF2AA100F4AEB8 /* FlowChatAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05A41A22ACF2AA100F4AEB8 /* FlowChatAppTests.swift */; };
+		D05A41AD2ACF2AA100F4AEB8 /* FlowChatAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05A41AC2ACF2AA100F4AEB8 /* FlowChatAppUITests.swift */; };
+		D05A41AF2ACF2AA100F4AEB8 /* FlowChatAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05A41AE2ACF2AA100F4AEB8 /* FlowChatAppUITestsLaunchTests.swift */; };
+		D05A41BD2ACF2AE700F4AEB8 /* TinyConstraints in Frameworks */ = {isa = PBXBuildFile; productRef = D05A41BC2ACF2AE700F4AEB8 /* TinyConstraints */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D05A419F2ACF2AA100F4AEB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D05A41802ACF2A9F00F4AEB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D05A41872ACF2A9F00F4AEB8;
+			remoteInfo = FlowChatApp;
+		};
+		D05A41A92ACF2AA100F4AEB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D05A41802ACF2A9F00F4AEB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D05A41872ACF2A9F00F4AEB8;
+			remoteInfo = FlowChatApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D05A41882ACF2A9F00F4AEB8 /* FlowChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlowChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D05A418B2ACF2A9F00F4AEB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D05A418D2ACF2A9F00F4AEB8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D05A418F2ACF2A9F00F4AEB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D05A41922ACF2A9F00F4AEB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D05A41942ACF2AA100F4AEB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D05A41972ACF2AA100F4AEB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D05A41992ACF2AA100F4AEB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D05A419E2ACF2AA100F4AEB8 /* FlowChatAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlowChatAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D05A41A22ACF2AA100F4AEB8 /* FlowChatAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowChatAppTests.swift; sourceTree = "<group>"; };
+		D05A41A82ACF2AA100F4AEB8 /* FlowChatAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlowChatAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D05A41AC2ACF2AA100F4AEB8 /* FlowChatAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowChatAppUITests.swift; sourceTree = "<group>"; };
+		D05A41AE2ACF2AA100F4AEB8 /* FlowChatAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowChatAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D05A41852ACF2A9F00F4AEB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05A41BD2ACF2AE700F4AEB8 /* TinyConstraints in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D05A419B2ACF2AA100F4AEB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D05A41A52ACF2AA100F4AEB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D05A417F2ACF2A9F00F4AEB8 = {
+			isa = PBXGroup;
+			children = (
+				D05A418A2ACF2A9F00F4AEB8 /* FlowChatApp */,
+				D05A41A12ACF2AA100F4AEB8 /* FlowChatAppTests */,
+				D05A41AB2ACF2AA100F4AEB8 /* FlowChatAppUITests */,
+				D05A41892ACF2A9F00F4AEB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D05A41892ACF2A9F00F4AEB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D05A41882ACF2A9F00F4AEB8 /* FlowChatApp.app */,
+				D05A419E2ACF2AA100F4AEB8 /* FlowChatAppTests.xctest */,
+				D05A41A82ACF2AA100F4AEB8 /* FlowChatAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D05A418A2ACF2A9F00F4AEB8 /* FlowChatApp */ = {
+			isa = PBXGroup;
+			children = (
+				D05A418B2ACF2A9F00F4AEB8 /* AppDelegate.swift */,
+				D05A418D2ACF2A9F00F4AEB8 /* SceneDelegate.swift */,
+				D05A418F2ACF2A9F00F4AEB8 /* ViewController.swift */,
+				D05A41912ACF2A9F00F4AEB8 /* Main.storyboard */,
+				D05A41942ACF2AA100F4AEB8 /* Assets.xcassets */,
+				D05A41962ACF2AA100F4AEB8 /* LaunchScreen.storyboard */,
+				D05A41992ACF2AA100F4AEB8 /* Info.plist */,
+			);
+			path = FlowChatApp;
+			sourceTree = "<group>";
+		};
+		D05A41A12ACF2AA100F4AEB8 /* FlowChatAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D05A41A22ACF2AA100F4AEB8 /* FlowChatAppTests.swift */,
+			);
+			path = FlowChatAppTests;
+			sourceTree = "<group>";
+		};
+		D05A41AB2ACF2AA100F4AEB8 /* FlowChatAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D05A41AC2ACF2AA100F4AEB8 /* FlowChatAppUITests.swift */,
+				D05A41AE2ACF2AA100F4AEB8 /* FlowChatAppUITestsLaunchTests.swift */,
+			);
+			path = FlowChatAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D05A41872ACF2A9F00F4AEB8 /* FlowChatApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D05A41B22ACF2AA100F4AEB8 /* Build configuration list for PBXNativeTarget "FlowChatApp" */;
+			buildPhases = (
+				D05A41842ACF2A9F00F4AEB8 /* Sources */,
+				D05A41852ACF2A9F00F4AEB8 /* Frameworks */,
+				D05A41862ACF2A9F00F4AEB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlowChatApp;
+			packageProductDependencies = (
+				D05A41BC2ACF2AE700F4AEB8 /* TinyConstraints */,
+			);
+			productName = FlowChatApp;
+			productReference = D05A41882ACF2A9F00F4AEB8 /* FlowChatApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D05A419D2ACF2AA100F4AEB8 /* FlowChatAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D05A41B52ACF2AA100F4AEB8 /* Build configuration list for PBXNativeTarget "FlowChatAppTests" */;
+			buildPhases = (
+				D05A419A2ACF2AA100F4AEB8 /* Sources */,
+				D05A419B2ACF2AA100F4AEB8 /* Frameworks */,
+				D05A419C2ACF2AA100F4AEB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D05A41A02ACF2AA100F4AEB8 /* PBXTargetDependency */,
+			);
+			name = FlowChatAppTests;
+			productName = FlowChatAppTests;
+			productReference = D05A419E2ACF2AA100F4AEB8 /* FlowChatAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D05A41A72ACF2AA100F4AEB8 /* FlowChatAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D05A41B82ACF2AA100F4AEB8 /* Build configuration list for PBXNativeTarget "FlowChatAppUITests" */;
+			buildPhases = (
+				D05A41A42ACF2AA100F4AEB8 /* Sources */,
+				D05A41A52ACF2AA100F4AEB8 /* Frameworks */,
+				D05A41A62ACF2AA100F4AEB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D05A41AA2ACF2AA100F4AEB8 /* PBXTargetDependency */,
+			);
+			name = FlowChatAppUITests;
+			productName = FlowChatAppUITests;
+			productReference = D05A41A82ACF2AA100F4AEB8 /* FlowChatAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D05A41802ACF2A9F00F4AEB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					D05A41872ACF2A9F00F4AEB8 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					D05A419D2ACF2AA100F4AEB8 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = D05A41872ACF2A9F00F4AEB8;
+					};
+					D05A41A72ACF2AA100F4AEB8 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = D05A41872ACF2A9F00F4AEB8;
+					};
+				};
+			};
+			buildConfigurationList = D05A41832ACF2A9F00F4AEB8 /* Build configuration list for PBXProject "FlowChatApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D05A417F2ACF2A9F00F4AEB8;
+			packageReferences = (
+				D05A41BB2ACF2AE700F4AEB8 /* XCRemoteSwiftPackageReference "TinyConstraints" */,
+			);
+			productRefGroup = D05A41892ACF2A9F00F4AEB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D05A41872ACF2A9F00F4AEB8 /* FlowChatApp */,
+				D05A419D2ACF2AA100F4AEB8 /* FlowChatAppTests */,
+				D05A41A72ACF2AA100F4AEB8 /* FlowChatAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D05A41862ACF2A9F00F4AEB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05A41982ACF2AA100F4AEB8 /* LaunchScreen.storyboard in Resources */,
+				D05A41952ACF2AA100F4AEB8 /* Assets.xcassets in Resources */,
+				D05A41932ACF2A9F00F4AEB8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D05A419C2ACF2AA100F4AEB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D05A41A62ACF2AA100F4AEB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D05A41842ACF2A9F00F4AEB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05A41902ACF2A9F00F4AEB8 /* ViewController.swift in Sources */,
+				D05A418C2ACF2A9F00F4AEB8 /* AppDelegate.swift in Sources */,
+				D05A418E2ACF2A9F00F4AEB8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D05A419A2ACF2AA100F4AEB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05A41A32ACF2AA100F4AEB8 /* FlowChatAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D05A41A42ACF2AA100F4AEB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05A41AF2ACF2AA100F4AEB8 /* FlowChatAppUITestsLaunchTests.swift in Sources */,
+				D05A41AD2ACF2AA100F4AEB8 /* FlowChatAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D05A41A02ACF2AA100F4AEB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D05A41872ACF2A9F00F4AEB8 /* FlowChatApp */;
+			targetProxy = D05A419F2ACF2AA100F4AEB8 /* PBXContainerItemProxy */;
+		};
+		D05A41AA2ACF2AA100F4AEB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D05A41872ACF2A9F00F4AEB8 /* FlowChatApp */;
+			targetProxy = D05A41A92ACF2AA100F4AEB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D05A41912ACF2A9F00F4AEB8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D05A41922ACF2A9F00F4AEB8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D05A41962ACF2AA100F4AEB8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D05A41972ACF2AA100F4AEB8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D05A41B02ACF2AA100F4AEB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D05A41B12ACF2AA100F4AEB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D05A41B32ACF2AA100F4AEB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5MLS7NSP5K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlowChatApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SwiftUI.FlowChatApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D05A41B42ACF2AA100F4AEB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5MLS7NSP5K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlowChatApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SwiftUI.FlowChatApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D05A41B62ACF2AA100F4AEB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5MLS7NSP5K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftUI.FlowChatAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlowChatApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FlowChatApp";
+			};
+			name = Debug;
+		};
+		D05A41B72ACF2AA100F4AEB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5MLS7NSP5K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftUI.FlowChatAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlowChatApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FlowChatApp";
+			};
+			name = Release;
+		};
+		D05A41B92ACF2AA100F4AEB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5MLS7NSP5K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftUI.FlowChatAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlowChatApp;
+			};
+			name = Debug;
+		};
+		D05A41BA2ACF2AA100F4AEB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5MLS7NSP5K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftUI.FlowChatAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlowChatApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D05A41832ACF2A9F00F4AEB8 /* Build configuration list for PBXProject "FlowChatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D05A41B02ACF2AA100F4AEB8 /* Debug */,
+				D05A41B12ACF2AA100F4AEB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D05A41B22ACF2AA100F4AEB8 /* Build configuration list for PBXNativeTarget "FlowChatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D05A41B32ACF2AA100F4AEB8 /* Debug */,
+				D05A41B42ACF2AA100F4AEB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D05A41B52ACF2AA100F4AEB8 /* Build configuration list for PBXNativeTarget "FlowChatAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D05A41B62ACF2AA100F4AEB8 /* Debug */,
+				D05A41B72ACF2AA100F4AEB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D05A41B82ACF2AA100F4AEB8 /* Build configuration list for PBXNativeTarget "FlowChatAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D05A41B92ACF2AA100F4AEB8 /* Debug */,
+				D05A41BA2ACF2AA100F4AEB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D05A41BB2ACF2AE700F4AEB8 /* XCRemoteSwiftPackageReference "TinyConstraints" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/roberthein/TinyConstraints";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D05A41BC2ACF2AE700F4AEB8 /* TinyConstraints */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D05A41BB2ACF2AE700F4AEB8 /* XCRemoteSwiftPackageReference "TinyConstraints" */;
+			productName = TinyConstraints;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D05A41802ACF2A9F00F4AEB8 /* Project object */;
+}
